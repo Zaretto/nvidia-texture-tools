@@ -59,5 +59,5 @@ TARGET_LINK_LIBRARIES(nvimage ${LIBS} nvcore posh bc6h bc7 nvmath)
 INSTALL(TARGETS nvimage
     RUNTIME DESTINATION bin
     LIBRARY DESTINATION lib
-    ARCHIVE DESTINATION lib/static)
+    ARCHIVE DESTINATION lib)
 

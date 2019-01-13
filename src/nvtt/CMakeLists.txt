@@ -54,7 +54,7 @@ TARGET_LINK_LIBRARIES(nvtt ${LIBS} nvcore nvimage nvthread squish bc6h bc7 nvmat
 INSTALL(TARGETS nvtt 
     RUNTIME DESTINATION bin
     LIBRARY DESTINATION lib
-    ARCHIVE DESTINATION lib/static)
+    ARCHIVE DESTINATION lib)
 
 INSTALL(FILES nvtt.h nvtt_wrapper.h DESTINATION include/nvtt)
 
